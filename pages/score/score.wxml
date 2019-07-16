@@ -1,0 +1,97 @@
+<!--test.wxml-->
+
+<view class="container">
+
+  <view class='row1' style="flex-direction:row;">
+    <text id="red">红方</text>
+    <text id="blue">蓝方</text>
+    <text id="tower">Tower</text>
+  </view>
+
+  <view class='row1' style="flex-direction:row;">
+    <view class="flex-wrp" style="flex-direction:column;">
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/orange.png"></image>
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/green.png"></image>
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/purple.png"></image>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+
+      <button class="sub" bindtap="subRO"> - </button>
+      <button class="sub" bindtap="subRG"> - </button>
+      <button class="sub" bindtap="subRP"> - </button>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+
+      <text class="amount">{{redOrange}}</text>
+      <text class="amount">{{redGreen}}</text>
+      <text class="amount">{{redPurple}}</text>
+
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <button class="add" bindtap="addRO"> + </button>
+      <button class="add" bindtap="addRG"> + </button>
+      <button class="add" bindtap="addRP"> + </button>
+
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <button class="sub" bindtap="subBO"> - </button>
+      <button class="sub" bindtap="subBG"> - </button>
+      <button class="sub" bindtap="subBP"> - </button>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <text class="amount">{{blueOrange}}</text>
+      <text class="amount">{{blueGreen}}</text>
+      <text class="amount">{{bluePurple}}</text>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <button class="add" bindtap="addBO"> + </button>
+      <button class="add" bindtap="addBG"> + </button>
+      <button class="add" bindtap="addBP"> + </button>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;">
+      <button class="sub" bindtap="subTO"> - </button>
+      <button class="sub" bindtap="subTG"> - </button>
+      <button class="sub" bindtap="subTP"> - </button>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <text class="amount">{{towerOrange}}</text>
+      <text class="amount">{{towerGreen}}</text>
+      <text class="amount">{{towerPurple}}</text>
+    </view>
+
+    <view class="flex-wrp" style="flex-direction:column;">
+      <button class="add" bindtap="addTO"> + </button>
+      <button class="add" bindtap="addTG"> + </button>
+      <button class="add" bindtap="addTP"> + </button>
+    </view>
+
+  </view>
+
+
+</view>
+<view class='row2' style="flex-direction:row;">
+  <text class='redScore'>{{redS}}
+  </text>
+  <text class='blueScore'>{{blueS}}
+  </text>
+</view>
+
+
+<view class='row1' style="flex-direction:row;">
+  <view style='padding:30rpx;font-weight:bold;'>自动阶段</view>
+  <radio-group style='padding:30rpx;' class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}" style='color:{{item.name}};margin-left:15rpx;'>
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+</view>
+
+ <view class='warning'>{{warning}}</view>
+ 

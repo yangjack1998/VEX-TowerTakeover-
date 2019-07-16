@@ -1,0 +1,122 @@
+/* pages/test/test.wxss */
+
+.flex-wrp {
+  display: flex;
+}
+
+
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  width: 100%;
+  display: flex;
+  margin-top: 60rpx;
+  height: 150rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bc_red {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  background-color: #fff;
+}
+
+.bc_blue {
+  background: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.sub {
+  margin: auto;
+}
+
+.add {
+  margin: auto;
+}
+
+.amount {
+  margin: auto;
+}
+
+.redA {
+  font-size: 50rpx;
+  margin-left: 40rpx;
+  margin-right: 165rpx;
+}
+
+.blueA {
+  font-size: 50rpx;
+  margin-left: 100rpx;
+}
+
+text {
+  font-size: 50rpx;
+  margin: auto;
+}
+
+#red {
+  font-size: 60rpx;
+  color: red;
+  font-weight: bold;
+  margin-left: 210rpx;
+}
+
+#blue {
+  font-size: 60rpx;
+  color: blue;
+  font-weight: bold;
+  margin-left: 60rpx;
+}
+
+#tower {
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-left: 35rpx;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.redScore {
+  font-size: 100rpx;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.8);
+  width: 50%;
+  height: 100%;
+}
+
+.blueScore {
+  font-size: 100rpx;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.8);
+  width: 50%;
+  height: 100%;
+}
+
+.auto {
+  padding: 20rpx;
+}
+
+.warning {
+  font-size: 40rpx;
+  color: rgba(128, 128, 128, 0.945);
+  text-align: center;
+}
+
+/* pages/score/score.wxss */

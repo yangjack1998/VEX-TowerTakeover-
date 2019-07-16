@@ -1,0 +1,22 @@
+<!-- <view class="container" >
+  <view class='row1' style="flex-direction:row;">
+    <button class="tool" id="t1"catchtap="score">
+      <text class="txt">{{socringTool}}</text>
+    </button>
+    <button class="tool" id="t2" catchtap="helper">
+      <text>{{matchHelper}}</text>
+    </button>
+  </view>
+</view> -->
+
+
+<view class="container">
+  <view class='row1' style="flex-direction:row;">
+    <navigator class="tool" id="t1" url='../score/score' open-type='navigate'>
+      <text>{{socringTool}}</text>
+    </navigator>
+    <navigator class="tool" id="t2" url='../test/test' open-type='navigate'>
+      <text>{{matchHelper}}</text>
+      </navigator>
+  </view>
+</view>

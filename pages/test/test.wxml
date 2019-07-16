@@ -1,0 +1,53 @@
+<!--test.wxml-->
+
+<view class="container">
+
+  <view class="flex-wrp" style="flex-direction:column;">
+
+    <view class='row1' style="flex-direction:row;">
+      <text class="redA">本方</text>
+      <text class="blueA">对方</text>
+    </view>
+
+    <view class='row1' style="flex-direction:row;">
+      <button class="sub" bindtap="subRO"> - </button>
+      <text class="amount">{{redOrange}}</text>
+      <button class="add" bindtap="addRO"> + </button>
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/orange.png"></image>
+      <button class="sub" bindtap="subBO"> - </button>
+      <text class="amount">{{blueOrange}}</text>
+      <button class="add" bindtap="addBO"> + </button>
+    </view>
+
+    <view class='row1' style="flex-direction:row;">
+      <button class="sub" bindtap="subRG"> - </button>
+      <text class="amount">{{redGreen}}</text>
+      <button class="add" bindtap="addRG"> + </button>
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/green.png"></image>
+      <button class="sub" bindtap="subBG"> - </button>
+      <text class="amount">{{blueGreen}}</text>
+      <button class="add" bindtap="addBG"> + </button>
+    </view>
+
+    <view class='row1' style="flex-direction:row;">
+      <button class="sub" bindtap="subRP"> - </button>
+      <text class="amount">{{redPurple}}</text>
+      <button class="add" bindtap="addRP"> + </button>
+      <image style="width: 200rpx; height: 200rpx;" src="../picture/purple.png"></image>
+      <button class="sub" bindtap="subBP"> - </button>
+      <text class="amount">{{bluePurple}}</text>
+      <button class="add" bindtap="addBP"> + </button>
+    </view>
+
+    <view class='row1' style="flex-direction:row;">
+      <text class="text">放</text>
+      <text class="text">取</text>
+    </view>
+
+    <view class='row1' style="flex-direction:row;">
+      <image class='text' style="width: 200rpx; height: 200rpx;" src="{{more}}"></image>
+      <image class='text' style="width: 200rpx; height: 200rpx;" src="{{less}}"></image>
+    </view>
+
+  </view>
+</view>

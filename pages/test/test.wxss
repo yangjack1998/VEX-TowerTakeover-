@@ -1,0 +1,68 @@
+/* pages/test/test.wxss */
+
+.flex-wrp {
+  display: flex;
+}
+
+.row1 {
+  display: flex;
+}
+
+.bc_red {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+.bc_blue {
+  background: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.sub {
+  margin: auto;
+}
+
+.add {
+  margin: auto;
+}
+
+.amount {
+  margin: auto;
+}
+
+.redA {
+  font-size: 50rpx;
+  margin-left: 40rpx;
+  margin-right: 165rpx;
+}
+
+.blueA {
+  font-size: 50rpx;
+  margin-left: 100rpx;
+}
+
+.text {
+  font-size: 50rpx;
+  margin: auto;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  background-color: #fff;
+}
+
+text {
+  font-size: 50rpx;
+  margin: auto;
+}
