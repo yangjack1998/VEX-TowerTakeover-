@@ -2,12 +2,6 @@
 .main{
   
 }
-.logo{
-  width: 175rpx;
-  position: absolute;
-  top: 20rpx;
-  left: 20rpx
-}
 .nav_bar{
   display: flex;
   padding: 10rpx;

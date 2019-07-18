@@ -1,16 +1,15 @@
 {
   "pages": [
-    "pages/main/main",
-    "pages/test/test",
-    "pages/score/score",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/game/game",
+    "pages/score/score"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "VEX Tower Takeover助手",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "enablePullDownRefresh": false
 }

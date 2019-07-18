@@ -1,5 +1,5 @@
 {
-	"description": "项目配置文件",
+	"description": "Project configuration file",
 	"packOptions": {
 		"ignore": []
 	},
@@ -9,11 +9,12 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"coverView": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wxbcf4446ac820a849",
+	"libVersion": "2.7.1",
+	"appid": "wxd92d54420da155ae",
 	"projectname": "miniprogram-test-1",
 	"debugOptions": {
 		"hidedInDevtools": []

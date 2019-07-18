@@ -1,10 +1,33 @@
-// pages/test/test.js
 Page({
-
+  //导航栏点击事件
+  home_selected: function () {
+    this.setData({
+      homeIsSelect: true,
+      gameIsSelect: false,
+      scoreIsSelect: false
+    })
+  },
+  game_selected: function () {
+    this.setData({
+      homeIsSelect: false,
+      gameIsSelect: true,
+      scoreIsSelect: false
+    })
+  },
+  score_selected: function () {
+    this.setData({
+      homeIsSelect: false,
+      gameIsSelect: false,
+      scoreIsSelect: true
+    })
+  },
   /**
    * 页面的初始数据
    */
   data: {
+    homeIsSelect: false,
+    gameIsSelect: false,
+    scoreIsSelect: true,
     redOrange: 0,
     blueOrange: 0,
     towerOrange: 0,
@@ -30,73 +53,73 @@ Page({
     greenMax: false,
     purpleMax: false,
     items: [{
-        name: 'red',
-        value: '红胜'
-      },
-      {
-        name: 'blue',
-        value: '蓝胜'
-      },
-      {
-        name: 'black',
-        value: '打平'
-      }
+      name: 'red',
+      value: '红胜'
+    },
+    {
+      name: 'blue',
+      value: '蓝胜'
+    },
+    {
+      name: 'black',
+      value: '打平'
+    }
     ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad: function (options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function() {
+  onReady: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function() {
+  onShow: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function() {
+  onHide: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function() {
+  onUnload: function () {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function() {
+  onPullDownRefresh: function () {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function() {
+  onReachBottom: function () {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function() {
+  onShareAppMessage: function () {
 
   },
 
@@ -328,17 +351,17 @@ Page({
   check() {
     if (this.data.orangeTotal >= 22) {
       this.setData({
-        orangeMax:true,
+        orangeMax: true,
         warning: "橙色Cube已经用完了"
       })
     } else if (this.data.greenTotal >= 22) {
       this.setData({
-        greenMax:true,
+        greenMax: true,
         warning: "绿色Cube已经用完了"
       })
     } else if (this.data.purpleTotal >= 22) {
       this.setData({
-        purpleMax:true,
+        purpleMax: true,
         warning: "紫色Cube已经用完了"
       })
     } else {
@@ -352,7 +375,7 @@ Page({
 
   },
 
-  radioChange: function(e) {
+  radioChange: function (e) {
     if (e.detail.value == "red") {
       this.setData({
         redAuto: 6,
@@ -372,5 +395,4 @@ Page({
     this.update();
     console.log('radio发生change事件，携带value值为：', e.detail.value)
   }
-
 })

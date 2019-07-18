@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "VEX Tower Takeover",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#d02222",
+  "enablePullDownRefresh": true
 }

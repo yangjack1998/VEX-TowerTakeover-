@@ -1,15 +1,14 @@
 <view class="main">
-  <view><image class="logo" src="../../icon/logo.jpg" 
-  mode="widthFix"></image></view>
+<text>111</text>
   <view class="nav_bar" >
   <navigator class="home" bindtap="home_selected" url="../index/index" 
-  open-type="switchTab">
+  open-type="reLaunch">
     <view class="{{homeIsSelect?'home_is_sel':''}}">
       <view class="fa fa-home"> Home</view>
     </view>
   </navigator>
   <navigator class="game" bindtap="game_selected" url="../game/game" 
-  open-type="reLaunch">
+  open-type="switchTab">
     <view class="{{gameIsSelect?'game_is_sel':''}}">
       <view class="fa fa-gears"> Game</view>
     </view>
