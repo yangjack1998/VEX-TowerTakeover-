@@ -1,5 +1,51 @@
 <view class="main">
-<text>111</text>
+
+  <view class="flex-wrp" style="flex-direction:column;">
+
+    <view class='row' style="flex-direction:row;">
+      <text class="fa fa-caret-down"></text>
+    </view>
+    <view class='row1' style="flex-direction:row;">
+      <button  class="fa fa-minus-square-o" bindtap="subRO"></button>
+      <text class="amount">{{redOrange}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addRO"></button>
+      <text class="fa fa-cube"></text>
+      <button class="fa fa-minus-square-o" bindtap="subBO"></button>
+      <text class="amount">{{blueOrange}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addBO"></button>
+    </view>
+
+    <view class='row2' style="flex-direction:row;">
+      <button class="fa fa-minus-square-o" bindtap="subRG"></button>
+      <text class="amount">{{redGreen}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addRG"></button>
+      <text class="fa fa-cube"></text>
+      <button class="fa fa-minus-square-o" bindtap="subBG"></button>
+      <text class="amount">{{blueGreen}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addBG"></button>
+    </view>
+
+    <view class='row3' style="flex-direction:row;">
+      <button class="fa fa-minus-square-o" bindtap="subRP"></button>
+      <text class="amount">{{redPurple}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addRP"></button>
+      <text class="fa fa-cube"></text>
+      <button class="fa fa-minus-square-o" bindtap="subBP"></button>
+      <text class="amount">{{bluePurple}}</text>
+      <button class="fa fa-plus-square-o" bindtap="addBP"></button>
+    </view>
+
+    <view class='row' style="flex-direction:row;">
+      <text class="text">放</text>
+      <text class="text">取</text>
+    </view>
+
+    <view class='row' style="flex-direction:row;">
+      <text class="fa fa-cubes" style="color:{{putTextColor}};font-size:100rpx;"></text>
+      <text class="fa fa-cubes" style="color:{{takeTextColor}};font-size:100rpx;"></text>
+      </view>
+
+  </view>
   <view class="nav_bar" >
   <navigator class="home" bindtap="home_selected" url="../index/index" 
   open-type="reLaunch">

@@ -7,14 +7,14 @@
   height: 50%;
   position:fixed; 
   z-index: -1;
-  top: 450rpx;
+  top: 470rpx;
   left: 25%;
 }
 .row1 {
   display: flex;
   z-index: 1;
-  padding-top: 20rpx;
-  padding-bottom: 10rpx;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
 }
 .cols{
   display: flex;
@@ -30,7 +30,7 @@
 .row3 {
   display: flex;
   z-index: 1;
-  padding-top: 450rpx;
+  padding-top: 430rpx;
   padding-bottom: 10rpx;
   padding-left: 5rpx;
   padding-right: 5rpx;
@@ -118,9 +118,9 @@ text {
 
 .redScore {
   font-size: 85rpx;
-  color: white;
+  color: rgba(250, 0, 0, 0.6);
   border-radius: 25rpx;
-  background-color: rgba(250, 0, 0, 0.6);
+  border: 3px dashed rgba(250, 0, 0, 0.6);
   width: 50%;
   height: 100%;
   margin: 17px;
@@ -128,9 +128,9 @@ text {
 
 .blueScore {
   font-size: 85rpx;
-  color: white;
+  color: rgba(0, 0, 250, 0.6);
   border-radius: 25rpx;
-  background-color: rgba(0, 0, 250, 0.6);
+  border: 3px dashed rgba(0, 0, 250, 0.6);
   width: 50%;
   height: 100%;
   margin: 17px;

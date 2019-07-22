@@ -1,6 +1,96 @@
 @import "../../icon/css/font-awesome.min.wxss";
+.flex-wrp {
+  display: flex;
+}
+
+.row1 {
+  display: flex;
+  background-color: rgba(255, 166, 0, 0.7);
+  height: 170rpx;
+  margin-bottom: 5rpx;
+}
+
+.row2 {
+  display: flex;
+  background-color: rgba(20, 65, 20, 0.7);
+  height: 170rpx;
+  margin-bottom: 5rpx;
+}
+
+.row3 {
+  display: flex;
+  background-color: rgba(100, 20, 100, 0.7);
+  height: 170rpx;
+}
+
+.row {
+  display: flex;
+  padding-top: 80rpx;
+  padding-bottom: 5rpx;
+}
+
+.fa-caret-down {
+  margin-left: 20%;
+  font-size: 60rpx;
+}
+
+.fa-minus-square-o {
+  margin: 60rpx;
+  font-size: 45rpx;
+  height: 40rpx;
+}
+
+.fa-plus-square-o {
+  margin: 60rpx;
+  font-size: 45rpx;
+  height: 40rpx;
+}
+
+.amount {
+  color: white;
+  font-size: 40rpx;
+  height: 40rpx;
+}
+
+.fa-cube{
+  color: white;
+  font-size: 75rpx;
+}
+
+.sub {
+  margin: auto;
+}
+
+.add {
+  margin: auto;
+}
+
+.amount {
+  margin: auto;
+}
+
+.text {
+  font-size: 50rpx;
+  margin: auto;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  padding: 0rpx;
+}
+
+text {
+  font-size: 50rpx;
+  margin: auto;
+}
+
 .main{
-  
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 .nav_bar{
   display: flex;
