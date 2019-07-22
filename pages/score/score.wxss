@@ -60,6 +60,7 @@ button {
   margin: 15rpx;
   font-size: 35rpx;
   height: 70rpx;
+  width: 25rpx;
 }
 
 
