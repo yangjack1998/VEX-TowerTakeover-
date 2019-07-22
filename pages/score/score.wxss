@@ -92,7 +92,7 @@ text {
 
 #orange {
   font-size: 80rpx;
-  color: orange;
+  color: rgb(255, 115, 0);
   margin-left: 50rpx;
   margin-right: 25rpx;
 }

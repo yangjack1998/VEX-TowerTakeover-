@@ -5,7 +5,7 @@
 
 .row1 {
   display: flex;
-  background-color: rgba(255, 166, 0, 0.7);
+  background-color: rgba(255, 115, 0, 0.7);
   height: 170rpx;
   margin-bottom: 5rpx;
 }
@@ -50,6 +50,7 @@
   color: white;
   font-size: 40rpx;
   height: 40rpx;
+  width: 25rpx;
 }
 
 .fa-cube{
